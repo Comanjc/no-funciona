@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Siuuu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="recupe.css">
+</head>
+
+<body>
+    <div class="parte">
+        <div class="parte1">
+            <center>
+                <h3>Registro Estudiante</h3>
+            </center>
+            <hr>
+            <label for="a">Nombre:</label><br>
+            <input type="text" id="nombre" placeholder="nombre">
+            <div class="Radio"><br>
+                <label for="a">Sexo:</label><br><br>
+                <form>
+                    <center><input type="radio" id="femenina" name="hola"><strong>Femenino</strong> <input type="radio"
+                            name="hola" id="masculino"><strong>Masculino</strong></center><br>
+                </form>
+            </div>
+
+            <label for="Accion">Ciclo:</label><br><br>
+            <select name="ciclo" id="ciclo" class="caja">
+                <option value="0" id="sele">Seleccionar ciclo</option>
+                <option value="i">I</option>
+                <option value="ii">II</option>
+                <option value="iii">III</option>
+                <option value="iv">IV</option>
+                <option value="v">V</option>
+                <option value="vi">VI</option>
+                <option value="vii">VII</option>
+                <option value="viii">VIII</option>
+                <option value="ix">IX</option>
+                <option value="x">X</option>
+            </select>
+
+            <br><br>
+            <label for="a">Escuela:</label><br><br>
+            <select name="escuela" id="escuela">
+                <option value="0" id="sele">seleccionar ciclo</option>
+                <option value="sistemas">Sistemas</option>
+                <option value="civil">Civil</option>
+                <option value="arquitectura">Arquitctura</option>
+                <option value="arquitectura">Ambiental</option>
+                <option value="arquitectura">Alimentos</option>
+            </select><br><br><br>
+
+            <button class="boton" id="agregar">Guardar</button>
+        </div>
+        <div class="parte2">
+            <table>
+                <thead>
+                    <tr style="background-color: brown; color: white;">
+                        <th>Item</th>
+                        <th>Nombres</th>
+                        <th>Sexo</th>
+                        <th>Ciclo</th>
+                        <th>Escuela</th>
+                        <th>Accion</th>
+                    </tr>
+                </thead>
+                <tbody id="tbd"></tbody>
+            </table>
+        </div>
+    </div>
+    <div>
+        <script src="index.js"></script>
+</body>
+</html>

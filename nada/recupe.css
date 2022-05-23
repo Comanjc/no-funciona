@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.parte {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+
+}
+
+.parte1 {
+    width: 25%;
+    height: 32rem;
+    margin: 0;
+    margin-left: 25%;
+    border-style: 1 solid;
+    border-width: 1px;
+    border: 1px solid yellow;
+
+}
+
+label {
+    margin: 0%;
+    margin-left: 10%;
+    font-size: 1.2em;
+    color: rgba(0, 17, 255, 0.753);
+}
+
+select {
+    margin: 0%;
+    margin-left: 10%;
+}
+
+#nombre {
+    width: 77%;
+    margin: 0%;
+    margin-left: 10%;
+    height: 2em;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    background-color: rgb(23, 209, 255);
+}
+option{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#sele{
+    color: rgb(230, 11, 11);
+}
+
+.parte2 {
+    width: 50%;
+    height: 30em;
+    margin: 5px;
+    margin-left: 5em;
+}
+th{
+    border: 1px solid rgb(200, 255, 0);
+    padding: 6px;
+    width: 18%;
+}
+hr {
+    margin-bottom: 20px;
+    background-color: yellow;
+}
+
+.radio {
+    display: flex;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+strong {
+    margin-left: 5px;
+    font-size: medium;
+    margin-right: 9%;
+    text-align: center;
+}
+
+#femenina , #masculino {
+    width: 5%;
+}
+
+h3{
+    text-align: center;
+    font-size: 2em;
+    color: brown;
+}
+th {
+    margin: 0;
+    margin-bottom: 20em;
+    font-size: large;
+
+}
+.boton{
+    margin-left: 30%;
+    width: 10em;
+    font-size: 1.2em;
+    color: black;
+    background-color: rgb(23, 209, 255);
+    border: 1px solid red;
+    border-radius: 2px;
+}
+#ciclo{
+    width: 16em;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(23, 209, 255);
+    border-radius: 2px;
+}
+#escuela{
+    width: 16em;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(23, 209, 255);
+    border-radius: 2px;
+}
+.uno{
+    color: red;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.dos{
+    color: orange;
+    font-size: 16px;
+    margin-right: 10px;
+}
